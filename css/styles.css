@@ -118,7 +118,7 @@ img {
 .nav-list-head-a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
-.nav-list-head-a.current::after {
+.nav-list-head-a .current::after {
     background: #404bbf;    
 }
 

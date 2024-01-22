@@ -118,7 +118,7 @@ img {
 .nav-list-head-a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
-.nav-list-head-a .current::after {
+.nav-list-head-a.current::after {
     background: #404bbf;    
 }
 
@@ -133,7 +133,9 @@ img {
     line-height: 1.5;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    padding: 24px 0;    
+    padding: 24px 0;
+    position: relative;
+    color: #404bbf;   
 }
 
 .nav-list-head-part .nav-list-head-a:hover {
